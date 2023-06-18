@@ -13,8 +13,8 @@ Request :
 
 ```json
 {
-    "nim": "string, unique",
-    "nama": "string (9)",
+    "nim": "string, unique (9)",
+    "nama": "string",
     "fakultas": "string",
     "prodi": "string"
 }
@@ -27,8 +27,8 @@ Response :
     "code": "number",
     "status": "string",
     "data": {
-        "nim": "string, unique",
-        "nama": "string (9)",
+        "nim": "string, unique (9)",
+        "nama": "string",
         "fakultas": "string",
         "prodi": "string",
         "created_at": "datetime",
@@ -54,16 +54,16 @@ Response :
     "status": "string",
     "data": [
         {
-            "nim": "string, unique",
-            "nama": "string (9)",
+            "nim": "string, unique (9)",
+            "nama": "string",
             "fakultas": "string",
             "prodi": "string",
             "created_at": "datetime",
             "updated_at": "datetime"
         },
         {
-            "nim": "string, unique",
-            "nama": "string (9)",
+            "nim": "string, unique (9)",
+            "nama": "string",
             "fakultas": "string",
             "prodi": "string",
             "created_at": "datetime",
@@ -90,8 +90,8 @@ Response :
     "code": "number",
     "status": "string",
     "data": {
-        "nim": "string, unique",
-        "nama": "string (9)",
+        "nim": "string, unique (9)",
+        "nama": "string",
         "fakultas": "string",
         "prodi": "string",
         "created_at": "datetime",
@@ -113,7 +113,7 @@ Request :
 
 ```json
 {
-    "nama": "string (9)",
+    "nama": "string",
     "fakultas": "string",
     "prodi": "string"
 }
@@ -126,8 +126,8 @@ Response :
     "code": "number",
     "status": "string",
     "data": {
-        "nim": "string, unique",
-        "nama": "string (9)",
+        "nim": "string, unique (9)",
+        "nama": "string",
         "fakultas": "string",
         "prodi": "string",
         "created_at": "datetime",
