@@ -5,7 +5,7 @@
 Request :
 
 -   Method : POST
--   Endpoint : `api/mahasiswa/{nim_mahasiswa}`
+-   Endpoint : `api/mahasiswa`
 -   Header :
     -   Content-Type : application/json
     -   Accept : application/json
@@ -74,7 +74,7 @@ Response :
 }
 ```
 
-## Get Mahasiswa
+## Get Mahasiswa By NIM
 
 Request :
 
